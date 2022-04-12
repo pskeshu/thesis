@@ -1,0 +1,525 @@
+@article{ciccia2010dna,
+	author = {Ciccia, Alberto and Elledge, Stephen J},
+	doi = {10.1016/j.molcel.2010.09.019},
+	journal = {Mol.~Cell},
+	number = {2},
+	pages = {179--204},
+	publisher = {Elsevier},
+	title = {The {DNA} {D}amage {R}esponse: {M}aking {I}t {S}afe to {P}lay with {K}nives},
+	volume = {40},
+	x-fetchedfrom = {Google Scholar},
+	year = {2010}
+}
+
+@article{polo2006new,
+	author = {Polo, Sophie E and Roche, Dani{\`e}le and Almouzni, Genevi{\`e}ve},
+	journal = {Cell},
+	number = {3},
+	pages = {481--493},
+	publisher = {Elsevier},
+	title = {{N}ew histone incorporation marks sites of {UV} repair in human cells},
+	volume = {127},
+	x-fetchedfrom = {Google Scholar},
+	year = {2006},
+	doi = {10.1016/j.cell.2006.08.049}
+}
+
+@article{rogakou1998dna,
+	author = {Rogakou, Emmy P and Pilch, Duane R and Orr, Ann H and Ivanova, Vessela S and Bonner, William M},
+	doi = {10.1074/jbc.273.10.5858},
+	journal = {J.~Biol.~Chem.},
+	number = {10},
+	pages = {5858--5868},
+	publisher = {ASBMB},
+	title = {DNA Double-stranded {B}reaks {I}nduce {H}istone {H2AX} {P}hosphorylation on {S}erine 139$^*$},
+	volume = {273},
+	x-fetchedfrom = {Google Scholar},
+	year = {1998}
+}
+
+@article{hamming1950error,
+	author = {Hamming, Richard W},
+	doi = {10.1002/j.1538-7305.1950.tb00463.x},
+	journal = {Bell~Syst.~Tech.~J.},
+	number = {2},
+	pages = {147--160},
+	publisher = {Nokia Bell Labs},
+	title = {Error detecting and error correcting codes},
+	volume = {29},
+	x-fetchedfrom = {Google Scholar},
+	year = {1950}
+}
+
+@book{friedberg2005dna,
+	author = {Friedberg, Errol C and Walker, Graham C and Siede, Wolfram and Wood, Richard D},
+	publisher = {American Society for Microbiology Press},
+	title = {DNA {R}epair and {M}utagenesis},
+	year = {2005}
+}
+
+@article{hoeijmakers2009dna,
+	author = {Hoeijmakers, Jan HJ},
+	doi = {10.1056/NEJMra0804615},
+	journal = {New~Engl.~J.~Med.},
+	number = {15},
+	pages = {1475--1485},
+	publisher = {Mass Medical Soc},
+	title = {{DNA} damage, aging, and cancer},
+	volume = {361},
+	x-fetchedfrom = {Google Scholar},
+	year = {2009}
+}
+
+@article{hara2000dna,
+	author = {Hara, Ryujiro and Mo, Jinyao and Sancar, Aziz},
+	doi = {10.1128/MCB.20.24.9173-9181.2000},
+	journal = {Mol.~Cell~Biol.},
+	number = {24},
+	pages = {9173--9181},
+	publisher = {Am Soc Microbiol},
+	title = {{DNA} {D}amage in the {N}ucleosome {C}ore is {R}efractory to {R}epair by {H}uman {E}xcision {N}uclease},
+	volume = {20},
+	x-fetchedfrom = {Google Scholar},
+	year = {2000}
+}
+
+@article{odell2011nucleosome,
+	author = {Odell, Ian D and Barbour, Joy-El and Murphy, Drew L and Della-Maria, Julie A and Sweasy, Joann B and Tomkinson, Alan E and Wallace, Susan S and Pederson, David S},
+	doi = {10.1128/MCB.05715-11},
+	journal = {Mol.~Cell~Biol.},
+	number = {22},
+	pages = {4623--4632},
+	publisher = {Am Soc Microbiol},
+	title = {{N}ucleosome {D}isruption by {DNA} {L}igase {III-XRCC1} {P}romotes {E}fficient {B}ase {E}xcision {R}epair},
+	volume = {31},
+	x-fetchedfrom = {Google Scholar},
+	year = {2011}
+}
+
+@article{park2006mammalian,
+	author = {Park, Ji-Hye and Park, Eun-Jung and Lee, Han-Sae and Kim, So Jung and Hur, Shin-Kyoung and Imbalzano, Anthony N and Kwon, Jongbum},
+	doi = {10.1038/sj.emboj.7601291},
+	journal = {EMBO~J.},
+	number = {17},
+	pages = {3986--3997},
+	publisher = {John Wiley \& Sons, Ltd Chichester, UK},
+	title = {{M}ammalian {SWI/SNF} complexes facilitate {DNA} double-strand break repair by promoting $\gamma$-{H2AX} induction},
+	volume = {25},
+	x-fetchedfrom = {Google Scholar},
+	year = {2006}
+}
+
+@article{polo2010regulation,
+	author = {Polo, Sophie E and Kaidi, Abderrahmane and Baskcomb, Linda and Galanty, Yaron and Jackson, Stephen P},
+	doi = {10.1038/emboj.2010.188},
+	journal = {EMBO~J.},
+	number = {18},
+	pages = {3130--3139},
+	publisher = {John Wiley \& Sons, Ltd Chichester, UK},
+	title = {{R}egulation of {DNA}-damage responses and cell-cycle progression by the chromatin remodelling factor {CHD4}},
+	volume = {29},
+	x-fetchedfrom = {Google Scholar},
+	year = {2010}
+}
+
+@article{ziv2006chromatin,
+	author = {Ziv, Yael and Bielopolski, Dana and Galanty, Yaron and Lukas, Claudia and Taya, Yoichi and Schultz, David C and Lukas, Jiri and Bekker-Jensen, Simon and Bartek, Jiri and Shiloh, Yosef},
+	doi = {10.1038/ncb1446},
+	journal = {Nat.~Cell~Biol.},
+	number = {8},
+	pages = {870--876},
+	publisher = {Nature Publishing Group},
+	title = {{C}hromatin relaxation in response to {DNA} double-strand breaks is modulated by a novel {ATM}-and {KAP}-1 dependent pathway},
+	volume = {8},
+	x-fetchedfrom = {Google Scholar},
+	year = {2006}
+}
+
+@article{derks2014dna,
+	author = {Derks, Kasper WJ and Hoeijmakers, Jan HJ and Pothof, Joris},
+	doi = {10.1016/j.dnarep.2014.03.008},
+	journal = {DNA~Repair},
+	pages = {214--220},
+	publisher = {Elsevier},
+	title = {{T}he {DNA} damage response: the omics era and its impact},
+	volume = {19},
+	x-fetchedfrom = {Google Scholar},
+	year = {2014}
+}
+
+@article{goodarzi2008atm,
+	author = {Goodarzi, Aaron A and Noon, Angela T and Deckbar, Dorothee and Ziv, Yael and Shiloh, Yosef and L{\"o}brich, Markus and Jeggo, Penny A},
+	doi = {10.1016/j.molcel.2008.05.017},
+	journal = {Mol.~Cell},
+	number = {2},
+	pages = {167--177},
+	publisher = {Elsevier},
+	title = {{ATM} signaling facilitates repair of {DNA} double-strand breaks associated with heterochromatin},
+	volume = {31},
+	x-fetchedfrom = {Google Scholar},
+	year = {2008}
+}
+
+@article{bhattacharya2009spatio,
+	author = {Bhattacharya, Dipanjan and Talwar, Shefali and Mazumder, Aprotim and Shivashankar, GV},
+	doi = {10.1016/j.bpj.2008.11.075},
+	journal = {Biophys~J.},
+	number = {9},
+	pages = {3832--3839},
+	publisher = {Elsevier},
+	title = {{S}patio-{T}emporal {P}lasticity in {C}hromatin {O}rganization in {M}ouse {C}ell {D}ifferentiation and during {D}rosophila {E}mbryogenesis},
+	volume = {96},
+	x-fetchedfrom = {Google Scholar},
+	year = {2009}
+}
+
+@article{banerjee2006chromatin,
+	author = {Banerjee, Bidisha and Bhattacharya, Dipanjan and Shivashankar, GV},
+	doi = {10.1529/biophysj.105.079525},
+	journal = {Biophys~J.},
+	number = {6},
+	pages = {2297--2303},
+	publisher = {Elsevier},
+	title = {{C}hromatin structure exhibits spatio-temporal heterogeneity within the cell nucleus},
+	volume = {91},
+	x-fetchedfrom = {Google Scholar},
+	year = {2006}
+}
+
+@book{lakowicz2013principles,
+	author = {Lakowicz, Joseph R},
+	publisher = {Springer science \& business media},
+	title = {Principles of fluorescence spectroscopy},
+	x-fetchedfrom = {Google Scholar},
+	year = {2013}
+}
+
+@article{BURGESS20141703,
+	abstract = {Summary
+The DNA damage response (DDR) occurs in the context of chromatin, and architectural features of chromatin have been implicated in DNA damage signaling and repair. Whereas a role of chromatin decondensation in the DDR is well established, we show here that chromatin condensation is integral to DDR signaling. We find that, in response to DNA damage chromatin regions transiently expand before undergoing extensive compaction. Using a protein-chromatin-tethering system to create defined chromatin domains, we show that interference with chromatin condensation results in failure to fully activate DDR. Conversely, forced induction of local chromatin condensation promotes ataxia telangiectasia mutated (ATM)- and ATR-dependent activation of upstream DDR signaling in a break-independent manner. Whereas persistent chromatin compaction enhanced upstream DDR signaling from irradiation-induced breaks, it reduced recovery and survival after damage. Our results demonstrate that chromatin condensation is sufficient for activation of DDR signaling and is an integral part of physiological DDR signaling.},
+	author = {Burgess, Rebecca C. and Burman, Bharat and Kruhlak, Michael J. and Misteli, Tom},
+	doi = {10.1016/j.celrep.2014.10.060},
+	issn = {2211-1247},
+	journal = {Cell~Rep.},
+	number = {5},
+	pages = {1703--1717},
+	title = {Activation of DNA Damage Response Signaling by Condensed Chromatin},
+	url = {https://www.sciencedirect.com/science/article/pii/S2211124714009292},
+	volume = {9},
+	year = {2014}
+}
+
+@article{chou2010chromatin,
+	author = {Chou, Danny M and Adamson, Britt and Dephoure, Noah E and Tan, Xu and Nottke, Amanda C and Hurov, Kristen E and Gygi, Steven P and Colai{\'a}covo, Monica P and Elledge, Stephen J},
+	doi = {10.1073/pnas.1012946107},
+	journal = {P.~Natl.~Acad.~Sci.~USA},
+	number = {43},
+	pages = {18475--18480},
+	publisher = {National Acad Sciences},
+	title = {{A} chromatin localization screen reveals poly ({ADP} ribose)-regulated recruitment of the repressive polycomb and {NuRD} complexes to sites of {DNA} damage},
+	volume = {107},
+	x-fetchedfrom = {Google Scholar},
+	year = {2010}
+}
+
+@article{qi2019multiple,
+	author = {Qi, Hongyun and Price, Brendan D and Day, Tovah A},
+	doi = {10.1016/j.tig.2018.12.002},
+	journal = {Trends~Genet.},
+	number = {2},
+	pages = {159--172},
+	publisher = {Elsevier},
+	title = {{M}ultiple {R}oles for {M}ono-and {P}oly ({ADP}-ribose) in {R}egulating {S}tress {R}esponses},
+	volume = {35},
+	x-fetchedfrom = {Google Scholar},
+	year = {2019}
+}
+
+@article{moldovan2007pcna,
+	author = {Moldovan, George-Lucian and Pfander, Boris and Jentsch, Stefan},
+	doi = {10.1016/j.cell.2007.05.003},
+	journal = {Cell},
+	number = {4},
+	pages = {665--679},
+	publisher = {Elsevier},
+	title = {{PCNA}, the maestro of the replication fork},
+	volume = {129},
+	x-fetchedfrom = {Google Scholar},
+	year = {2007}
+}
+
+@article{D1SC05506B,
+	abstract = {The characterization of newly synthesized materials is a cornerstone of all chemistry and nanotechnology laboratories. For this purpose{,} a wide array of analytical techniques have been standardized and are used routinely by laboratories across the globe. With these methods we can understand the structure{,} dynamics and function of novel molecular architectures and their relations with the desired performance{,} guiding the development of the next generation of materials. Moreover{,} one of the challenges in materials chemistry is the lack of reproducibility due to improper publishing of the sample preparation protocol. In this context{,} the recent adoption of the reporting standard MIRIBEL (Minimum Information Reporting in Bio--Nano Experimental Literature) for material characterization and details of experimental protocols aims to provide complete{,} reproducible and reliable sample preparation for the scientific community. Thus{,} MIRIBEL should be immediately adopted in publications by scientific journals to overcome this challenge. Besides current standard spectroscopy and microscopy techniques{,} there is a constant development of novel technologies that aim to help chemists unveil the structure of complex materials. Among them super-resolution microscopy (SRM){,} an optical technique that bypasses the diffraction limit of light{,} has facilitated the study of synthetic materials with multicolor ability and minimal invasiveness at nanometric resolution. Although still in its infancy{,} the potential of SRM to unveil the structure{,} dynamics and function of complex synthetic architectures has been highlighted in pioneering reports during the last few years. Currently{,} SRM is a sophisticated technique with many challenges in sample preparation{,} data analysis{,} environmental control and automation{,} and moreover the instrumentation is still expensive. Therefore{,} SRM is currently limited to expert users and is not implemented in characterization routines. This perspective discusses the potential of SRM to transition from a niche technique to a standard routine method for material characterization. We propose a roadmap for the necessary developments required for this purpose based on a collaborative effort from scientists and engineers across disciplines.},
+	author = {Dhiman, Shikha and Andrian, Teodora and Gonzalez, Beatriz Santiago and Tholen, Marrit M. E. and Wang, Yuyang and Albertazzi, Lorenzo},
+	doi = {10.1039/D1SC05506B},
+	journal = {Chem. Sci.},
+	pages = {--},
+	publisher = {Roy.~Soc.~Ch.},
+	title = {{C}an super-resolution microscopy become a standard characterization technique for materials chemistry?},
+	url = {http://dx.doi.org/10.1039/D1SC05506B},
+	year = {2022}
+}
+
+@article{scherf2015smart,
+	author = {Scherf, Nico and Huisken, Jan},
+	doi = {10.1038/nbt.3310.},
+	journal = {Nat.~Biotechnol.},
+	number = {8},
+	pages = {815--818},
+	publisher = {Nature Publishing Group},
+	title = {{T}he smart and gentle microscope},
+	volume = {33},
+	x-fetchedfrom = {Google Scholar},
+	year = {2015}
+}
+
+@article{edelstein2014advanced,
+	author = {Edelstein, Arthur D and Tsuchida, Mark A and Amodaj, Nenad and Pinkard, Henry and Vale, Ronald D and Stuurman, Nico},
+	doi = {10.14440/jbm.2014.36},
+	journal = {J.~Biol.~Meth.},
+	number = {2},
+	publisher = {NIH Public Access},
+	title = {{A}dvanced methods of microscope control using $\mu$Manager software},
+	volume = {1},
+	x-fetchedfrom = {Google Scholar},
+	year = {2014}
+}
+
+@article{allan2019bluesky,
+	author = {Allan, Daniel and Caswell, Thomas and Campbell, Stuart and Rakitin, Maksim},
+	doi = {10.1080/08940886.2019.1608121},
+	journal = {Synchrotron Radiation News},
+	number = {3},
+	pages = {19--22},
+	publisher = {Taylor \& Francis},
+	title = {{B}luesky's {A}head: {A} {M}ulti-{F}acility {C}ollaboration for an a la {C}arte {S}oftware {P}roject for {D}ata {A}cquisition and {M}anagement},
+	volume = {32},
+	year = {2019}
+}
+
+@article{kesavan2020monitoring,
+	author = {Kesavan, PS and Bohra, Darshika and Roy, Sitara and Mazumder, Aprotim},
+	doi = {10.1091/mbc.E19-08-0417},
+	journal = {Mol.~Biol.~Cell},
+	number = {13},
+	pages = {1403--1410},
+	publisher = {Am Soc Cell Biol},
+	title = {{M}onitoring global changes in chromatin compaction states upon localized {DNA} damage with tools of fluorescence anisotropy},
+	volume = {31},
+	x-fetchedfrom = {Google Scholar},
+	year = {2020}
+}
+
+@article{khumukcham2019hematopoietic,
+	author = {Khumukcham, Saratchandra Singh and Samanthapudi, Venkata Subramanyam Kumar and Penugurti, Vasudevarao and Kumari, Anita and Kesavan, PS and Velatooru, Loka Reddy and Kotla, Siva Reddy and Mazumder, Aprotim and Manavathi, Bramanandam},
+	doi = {10.1074/jbc.RA118.006733},
+	journal = {J.~Biol.~Chem.},
+	number = {26},
+	pages = {10236--10252},
+	publisher = {ASBMB},
+	title = {{H}ematopoietic {PBX}-interacting protein is a substrate and an inhibitor of the {APC/C}--{Cdc20} complex and regulates mitosis by stabilizing cyclin {B1}},
+	volume = {294},
+	x-fetchedfrom = {Google Scholar},
+	year = {2019}
+}
+
+@article{ayrapetov2014dna,
+	author = {Ayrapetov, Marina K and Gursoy-Yuzugullu, Ozge and Xu, Chang and Xu, Ye and Price, Brendan D},
+	doi = {10.1073/pnas.1403565111},
+	journal = {P.~Natl.~Acad.~Sci.~USA},
+	number = {25},
+	pages = {9169--9174},
+	publisher = {National Acad Sciences},
+	title = {{DNA} double-strand breaks promote methylation of histone {H3} on lysine 9 and transient formation of repressive chromatin},
+	volume = {111},
+	x-fetchedfrom = {Google Scholar},
+	year = {2014}
+}
+
+@article{becker2014atm,
+	author = {Becker, Annabelle and Durante, Marco and Taucher-Scholz, Gisela and Jakob, Burkhard},
+	doi = {10.1371/journal.pone.0092640},
+	journal = {PloS one},
+	number = {3},
+	pages = {e92640},
+	publisher = {Public Library of Science San Francisco, USA},
+	title = {{ATM} alters the otherwise robust chromatin mobility at sites of {DNA} double-strand breaks {(DSBs)} in human cells},
+	volume = {9},
+	year = {2014}
+}
+
+@article{dahmus1996reversible,
+	author = {Dahmus, Michael E},
+	doi = {10.1074/jbc.271.32.19009},
+	journal = {J.~Biol.~Chem.},
+	number = {32},
+	pages = {19009--19012},
+	publisher = {ASBMB},
+	title = {{R}eversible phosphorylation of the {C}-terminal domain of {RNA} polymerase {II}},
+	volume = {271},
+	year = {1996}
+}
+
+@article{ding2014colorimetric,
+	author = {Ding, Xiaokang and Ge, Dandan and Yang, Kun-Lin},
+	doi = {10.1016/j.snb.2014.05.014},
+	journal = {Sensors and Actuators B: Chemical},
+	pages = {234--239},
+	publisher = {Elsevier},
+	title = {{C}olorimetric protease assay by using gold nanoparticles and oligopeptides},
+	volume = {201},
+	year = {2014}
+}
+
+@article{ge2013standard,
+	author = {Ge, Jing and Wood, David K and Weingeist, David M and Prasongtanakij, Somsak and Navasumrit, Panida and Ruchirawat, Mathuros and Engelward, Bevin P},
+	doi = {10.1002/cyto.a.22291},
+	journal = {Cytom~Part~A},
+	number = {6},
+	pages = {552--560},
+	publisher = {Wiley Online Library},
+	title = {{S}tandard fluorescent imaging of live cells is highly genotoxic},
+	volume = {83},
+	year = {2013}
+}
+
+@incollection{ghosh2012dynamic,
+	author = {Ghosh, Subhasri and Saha, Suvrajit and Goswami, Debanjan and Bilgrami, Sameera and Mayor, Satyajit},
+	booktitle = {Methods in enzymology},
+	pages = {291--327},
+	publisher = {Elsevier},
+	title = {{D}ynamic imaging of homo-{FRET} in live cells by fluorescence anisotropy microscopy},
+	volume = {505},
+	year = {2012}
+}
+
+@article{haince2008parp1,
+	author = {Haince, Jean-Fran{\c c}ois and McDonald, Darin and Rodrigue, Am{\'e}lie and D{\'e}ry, Ugo and Masson, Jean-Yves and Hendzel, Michael J and Poirier, Guy G},
+	doi = {10.1074/jbc.M706734200},
+	journal = {J.~Biol.~Chem.},
+	number = {2},
+	pages = {1197--1208},
+	publisher = {ASBMB},
+	title = {{PARP1}-dependent kinetics of recruitment of {MRE11} and {NBS1} proteins to multiple {DNA} damage sites},
+	volume = {283},
+	year = {2008}
+}
+
+@article{hihara2012local,
+	author = {Hihara, Saera and Pack, Chan-Gi and Kaizu, Kazunari and Tani, Tomomi and Hanafusa, Tomo and Nozaki, Tadasu and Takemoto, Satoko and Yoshimi, Tomohiko and Yokota, Hideo and Imamoto, Naoko and others},
+	doi = {10.1016/j.celrep.2012.11.008},
+	journal = {Cell~rep.},
+	number = {6},
+	pages = {1645--1656},
+	publisher = {Elsevier},
+	title = {{L}ocal nucleosome dynamics facilitate chromatin accessibility in living mammalian cells},
+	volume = {2},
+	year = {2012}
+}
+
+@article{ji2017baf60b,
+	author = {Ji, Shuyi and Zhu, Linying and Gao, Yimeng and Zhang, Xiaoran and Yan, Yupeng and Cen, Jin and Li, Rongxia and Zeng, Rong and Liao, Lujian and Hou, Chunhui and others},
+	doi = {10.1038/cr.2017.36},
+	journal = {Cell~res.},
+	number = {5},
+	pages = {642--656},
+	publisher = {Nature Publishing Group},
+	title = {{B}af60b-mediated {ATM}-p53 activation blocks cell identity conversion by sensing chromatin opening},
+	volume = {27},
+	year = {2017}
+}
+
+@article{kanda1998histone,
+	author = {Kanda, Teru and Sullivan, Kevin F and Wahl, Geoffrey M},
+	doi = {10.1016/S0960-9822(98)70156-3},
+	journal = {Curr.~Biol},
+	number = {7},
+	pages = {377--385},
+	publisher = {Elsevier},
+	title = {{H}istone--{GFP} fusion protein enables sensitive analysis of chromosome dynamics in living mammalian cells},
+	volume = {8},
+	year = {1998}
+}
+
+@article{kruhlak2006changes,
+	author = {Kruhlak, Michael J and Celeste, Arkady and Dellaire, Graham and Fernandez-Capetillo, Oscar and M{\"u}ller, Waltraud G and McNally, James G and Bazett-Jones, David P and Nussenzweig, Andr{\'e}},
+	doi = {10.1083/jcb.200510015},
+	journal = {J.~Cell~Biol.},
+	number = {6},
+	pages = {823--834},
+	publisher = {Rockefeller University Press},
+	title = {Changes in chromatin structure and mobility in living cells at sites of DNA double-strand breaks},
+	volume = {172},
+	year = {2006}
+}
+
+@article{lachner2001methylation,
+	author = {Lachner, Monika and O'Carroll, D{\'o}nal and Rea, Stephen and Mechtler, Karl and Jenuwein, Thomas},
+	doi = {10.1038/35065132},
+	journal = {Nature},
+	number = {6824 },
+	pages = {116--120},
+	publisher = {Nature Publishing Group},
+	title = {{M}ethylation of histone {H3} lysine 9 creates a binding site for {HP1} proteins},
+	volume = {410},
+	year = {2001}
+}
+
+@article{madabhushi2014dna,
+	author = {Madabhushi, Ram and Pan, Ling and Tsai, Li-Huei},
+	doi = {10.1016/j.neuron.2014.06.034},
+	journal = {Neuron},
+	number = {2},
+	pages = {266--282},
+	publisher = {Elsevier},
+	title = {{DNA} damage and its links to neurodegeneration},
+	volume = {83},
+	year = {2014}
+}
+
+@article{meyer2013clustered,
+	author = {Meyer, Barbara and Voss, Kay-Obbe and Tobias, Frank and Jakob, Burkhard and Durante, Marco and Taucher-Scholz, Gisela},
+	doi = {10.1093/nar/gkt304},
+	journal = {Nucleic~Acids~Res.},
+	number = {12},
+	pages = {6109--6118},
+	publisher = {Oxford University Press},
+	title = {{C}lustered {DNA} damage induces pan-nuclear {H2AX} phosphorylation mediated by {ATM} and {DNA--PK}},
+	volume = {41},
+	year = {2013}
+}
+
+@article{mortusewicz2007feedback,
+	author = {Mortusewicz, Oliver and Ame, Jean-Christophe and Schreiber, Valerie and Leonhardt, Heinrich},
+	doi = {10.1093/nar/gkm933},
+	journal = {Nucleic~Acids~Res.},
+	number = {22},
+	pages = {7665--7675},
+	publisher = {Oxford University Press},
+	title = {{F}eedback-regulated poly ({ADP}-ribosyl) ation by {PARP}-1 is required for rapid response to {DNA} damage in living cells},
+	volume = {35},
+	year = {2007}
+}
+
+@article{nakayama2001role,
+	author = {Nakayama, JI and Rice, JC and Strahl, BD and Allis, CD and Grewal, SIS},
+	doi = {10.1126/science.1060118},
+	journal = {Science},
+	pages = {110--113},
+	title = {Role of histone H3 lysine 9 methylation in heterochromatin assembly and epigenetic gene silencing},
+	volume = {292},
+	year = {2001}
+}
+
+@article{panza2015live,
+	author = {Panza, Paolo and Maier, Julia and Schmees, Christian and Rothbauer, Ulrich and S{\"o}llner, Christian},
+	doi = {10.1242/dev.118943},
+	journal = {Development},
+	number = {10},
+	pages = {1879--1884},
+	publisher = {The Company of Biologists},
+	title = {{L}ive imaging of endogenous protein dynamics in zebrafish using chromobodies},
+	volume = {142},
+	year = {2015}
+}
+

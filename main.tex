@@ -1,0 +1,66 @@
+\documentclass[a4paper,12pt]{report}
+\usepackage[left=2.5cm,right=2.5cm,top=2.5cm,bottom=2.5cm]{geometry}
+\usepackage{amsfonts}
+\usepackage{graphicx}
+\usepackage{hhline}
+\usepackage{hyperref}
+\usepackage{float}
+\bibliographystyle{apalike}
+
+\makeatletter
+\renewcommand*\l@section{\@dottedtocline{1}{1.5em}{2.3em}}
+\makeatother
+
+\makeatletter
+\def\@seccntformat#1{%
+  \expandafter\ifx\csname c@#1\endcsname\c@section\else
+  \csname the#1\endcsname\quad
+  \fi}
+\makeatother
+
+\makeatletter
+\let\latexl@section\l@section
+\def\l@section#1#2{\begingroup\let\numberline\@gobble\latexl@section{#1}{#2}\endgroup}
+\makeatother
+
+
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    filecolor=blue,      
+    urlcolor=blue,
+    citecolor=blue
+}
+\usepackage{caption}
+\captionsetup[figure]{labelfont={color=blue, it}, font={footnotesize, color=black} }
+
+
+\usepackage{titling}
+\renewcommand\maketitlehooka{\null\mbox{}\vfill}
+\renewcommand\maketitlehookd{\vfill\null}
+\begin{titlepage}
+\title{{PhD Thesis Synopsis}\\{\vspace{-0.29em} \hrulefill\\} \textbf{Microscopy and image analysis based enhancements for investigating DNA damage responses in cells}}
+\author{P S Kesavan\\ {\vspace{6em}(Under the supervision of Prof. Aprotim Mazumder)}}
+\date{}
+\end{titlepage}
+
+\linespread{1.5}
+\begin{document}
+
+\maketitle
+\newpage
+\tableofcontents
+\newpage
+
+\input{chapters/chapter_1}
+\input{chapters/chapter_2}
+\input{chapters/chapter_3}
+\input{chapters/chapter_4}
+\input{chapters/chapter_5}
+
+\phantomsection
+\addcontentsline{toc}{section}{References}
+\bibliography{citations/citations}
+
+
+\end{document}
