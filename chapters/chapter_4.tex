@@ -3,10 +3,19 @@
 
 
 \section{Open loop imaging systems}
-\paragraph*{}The software systems of commonly available widefield systems can be characterized as open loop systems. The user configures the microscope for a specific mode of operation by choosing appropriate device parameters manually. Some of these parameters are position of stage, Z drive, mirrors, shutter, detector exposure, detector gain, choice of objective, etc. Many of these parameters are optimally set to attain the best image possible by the system in order to perform further downstream analysis. The best image is often characterized as an image that has one or many or a part-of an object of interest (such as cells, tissues, crystals, etc), is well focused, well-illuminated, with good contrast, and without any over-exposed pixels, which are niquest sampled.
+\paragraph*{}The software systems of commonly available widefield systems can be characterized as open loop systems. The user configures the microscope for a specific mode of operation by accessing device settings and configuring it manually. Some of these parameters are position of stage, Z drive, mirrors, shutter, detector exposure, detector gain, choice of objective, etc. Existing software have customizable imaging profiles that can make it easier to set multiple device configurations at once, and makes it easier to image specific dyes, or imaging modes such as bright-field or phase contrast, all of which might require the actuation of entirely different parts of the microscope at once for the system to be ready before imaging. Apart from these, parameters such as focus, XY scan list, exposure time, detector gain are optimally set to attain the best image possible by the system in order to perform further downstream offline analysis. 
+
+An ideal image that is useful for downstream analysis can be characterized as one which
+\begin{itemize}
+\item has one or many objects of interest (such as cells, tissues, crystals, etc)
+\item has a pixel resolution smaller than niquest limit for the fluorophore in use
+\item is well focused
+\item properly illuminated
+\item has large contrast without any under or over exposed pixels.
+\end{itemize}
 
 \begin{figure}[H]
-    {\hfill\includegraphics[clip, width=1\linewidth]{figures/control_loop.jpg}\hspace*{\fill}}
+    {\hfill\includegraphics[width=1\linewidth]{figures/control_loop.jpg}\hspace*{\fill}}
     \caption{Difference between open-loop and closed-loop software workflows for imaging a sample.}
     {\label{fig:control_loop}}
 \end{figure}
