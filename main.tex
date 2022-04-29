@@ -4,6 +4,7 @@
 \usepackage{graphicx}
 \usepackage{hhline}
 \usepackage{hyperref}
+\usepackage{enumitem}
 \usepackage{float}
 \bibliographystyle{apalike}
 
@@ -35,15 +36,7 @@
 \captionsetup[figure]{labelfont={color=blue, it}, font={footnotesize, color=black} }
 
 
-\usepackage{titling}
-\renewcommand\maketitlehooka{\null\mbox{}\vfill}
-\renewcommand\maketitlehookd{\vfill\null}
-\begin{titlepage}
-\title{{PhD Thesis Synopsis}\\{\vspace{-0.29em} \hrulefill\\} \textbf{Microscopy and image analysis based enhancements for investigating DNA damage responses in cells}}
-\author{P S Kesavan\\ {\vspace{6em}(Under the supervision of Prof. Aprotim Mazumder)}}
-\date{}
-\end{titlepage}
-
+\input{title.tex}
 \linespread{1.5}
 \begin{document}
 
