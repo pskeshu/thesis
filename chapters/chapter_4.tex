@@ -5,6 +5,13 @@
 \section{Open loop imaging systems}
 \paragraph*{}The software systems of commonly available widefield systems can be characterized as open loop systems. The user configures the microscope for a specific mode of operation by choosing appropriate device parameters manually. Some of these parameters are position of stage, Z drive, mirrors, shutter, detector exposure, detector gain, choice of objective, etc. Many of these parameters are optimally set to attain the best image possible by the system in order to perform further downstream analysis. The best image is often characterized as an image that has one or many or a part-of an object of interest (such as cells, tissues, crystals, etc), is well focused, well-illuminated, with good contrast, and without any over-exposed pixels, which are niquest sampled.
 
+\begin{figure}[H]
+    {\hfill\includegraphics[clip, width=1\linewidth]{figures/control_loop.jpg}\hspace*{\fill}}
+    \caption{Difference between open-loop and closed-loop software workflows for imaging a sample.}
+    {\label{fig:control_loop}}
+\end{figure}
+
+
 Some of these considerations for best image translates to the user having to manually scan the sample, which can have different forms, such as a confocal dish, slide, or a multi-well plate, in search of fields of interest. In the case of a confocal dish, one has to ensure that the field of interest is not set in the periphery of the coverslip area, where light will move through glass and plastic, reducing the quality of the image. Other considerations of the field might be determined by the object of interest under observation. One might want to image only cells transfected with a certain plasmid expressing one or more fluorescent proteins. Or one might be interested in imaging cells of certain cell cycle stage, such as mitotic or s-phase cells. In such scenarios, to identify fields of interest is a task of human persistance. The more effort one can spend in identifying fields of interest, one casts a wider net of observation on their objects of interest, therefore increasing the throughput of the experiment.
 
 The establishment of fields of interest by manual inspection translates to a list of stage coordinates, with which the microscope executes an imaging sequence, resulting in the production of data. Existing commercial software present this model which can be characterized as an open loop, where the chain of execution is linear, and there are no feedback in the operation of the system.
