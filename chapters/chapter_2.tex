@@ -23,15 +23,15 @@
     {\label{fig:setup}}
 \end{figure}
 
-\paragraph*{} In such a setup, the effective field of view in the camera is reduced to halves, where the parallel and perpendicular component of the light is projected. To retrieve the components, I have written an image processing pipeline in python to automatically extract the parallel and perpendicular frames, and perform the anisotropy calculations on objects that might be detected in them. We use a frame reference, which is a bright field image, that highlights the edges of the aperture that separates the two components. We binarize the frame image, from which we segment out two intensity regions by overlaying it on top of our raw data. The segmented raw data is then registered with affine registration libraries, such that the pixels in both the channels correspond to each other in physical space.
+\paragraph*{} In such a setup, the effective field of view in the camera is reduced to halves, where the parallel and perpendicular component of the light is projected. To retrieve the components, I have written an image processing pipeline in python to automatically extract the parallel and perpendicular frames, and perform the anisotropy calculations on objects that might be detected in them. I use a frame reference, which is a bright field image, that highlights the edges of the aperture that separates the two components. I binarize the frame image, from which I segment out two intensity regions by overlaying it on top of our raw data. The segmented raw data is then registered with affine registration libraries, such that the pixels in both the channels correspond to each other in physical space.
 
 \begin{figure}[!htp]
     {\hfill\includegraphics[clip,width=1\linewidth]{figures/pipeline.png}\hspace*{\fill}}
-    \caption{Image analysis pipeline.}
+    \caption{Image analysis pipeline. A Frame reference image is acquired at the time of the experiment, which is a bright-field image, with the two imaging components separated by the aperture clearly visible, which is then binarized and used as labels for the raw data that are subsequently acquired. The component images are registered with affine transformation to correct for any tilt, such that the pixels in both the components correspond to the same physical space.}
     {\label{fig:pipeline}}
 \end{figure}
 
-\paragraph*{} To characterize the sensitivity of the system to changes in rotational correlation time, we varied the microviscosity of the dye fluorescein in water by increasing fraction of glycerol in the solution. This helped me in obtaining the Perrin's curve for the system, and helped determine the dynamic range of anisotropy values that the optical system is sensitive to. (Fig. \ref{fig:perrin})
+\paragraph*{} To characterize the sensitivity of the system to changes in rotational correlation time, I varied the microviscosity of the dye fluorescein in water by increasing fraction of glycerol in the solution. This helped me in obtaining the Perrin's curve for the system, and helped determine the dynamic range of anisotropy values that the optical system is sensitive to. (Fig. \ref{fig:perrin})
 
 
 \begin{figure}[!htp]
@@ -40,7 +40,7 @@
     {\label{fig:perrin}}
 \end{figure}
 
-\paragraph*{} The introduction of dual lamp housing (DLH) has the added advantage of introducing a laser in the light path of a widefield microscope, which can be used for the purpose of microirradiation, which has been used for inducing local damage on hoechst sensitized cells \cite{BURGESS20141703}. Using such a setup, we can study the physical effects on the chromatin structure with FAI, upon localized DNA damaged with microirradiation.
+\paragraph*{} The introduction of dual lamp housing (DLH) has the added advantage of introducing a laser in the light path of a widefield microscope, which can be used for the purpose of microirradiation, which has been used for inducing local damage on hoechst sensitized cells \cite{BURGESS20141703}. Using such a setup, I can study the physical effects on the chromatin structure with FAI, upon localized DNA damaged with microirradiation.
 
 \section{Chromatin compaction maps}
 \paragraph*{} In order to use this to map chromatin, core Histone, H2B, is tagged with EGFP and expressed in HeLa cells, which are then preferentially excited with polarized light, which maximally excites fluorophores whose excitation dipole are aligned to the polarization axis. The extent of depolarization of emission signal gives a measure of rotational diffusion of H2B-EGFP, which could be affected by its local environment. The higher the rotational diffusion, the greater is the extent of emission signal depolarizing. Anisotropy maps generated of H2B show that euchromatin like regions have greater rotational mobility than regions of heterochromatin, which is an evidence for differential packaging of chromatin compaction and can be used as a direct physical measure of chromatin packaging \cite{bhattacharya2009spatio}.
@@ -57,14 +57,24 @@
     {\label{fig:an_verify_line}}
 \end{figure}
 
-\paragraph*{} In order to verify that the anisotropy values indeed correspond to biologically relevant structures of chromatin, we first demonstrated that anisotropy maps are preserved in fixation; we then imaged HeLa cells expressing H2B-EGFP for known markers of chromatin structures with immunofluorescence assay. We found that trimethylated lysine at ninth position in core Histone H3 (H3K9Me3), which is generally associated with densely packed heterochromatin regions correspond to high values of anisotropy (Fig. \ref{fig:an_verify}, \ref{fig:an_verify_line}). Similarly, we found that Heterochromatin Protein 1$\alpha$ (HP1$\alpha$), associated with heterochromatin domains, are also enriched in regions of high anisotropy. Conversely, we stained for decompacted chromatin using an antibody against the activated form of RNA polymerase, in which S5 is phosphorylated in C-terminal domain, and found that the anisotropy values are low in such regions. Together, these results suggested that regions of high and low anisotropy indeed correspond to biologically relevant structures of dense and loosely packed chromatin.  
+\paragraph*{} In order to verify that the anisotropy values indeed correspond to biologically relevant structures of chromatin, I first demonstrated that anisotropy maps are preserved in fixation; I then imaged HeLa cells expressing H2B-EGFP for known markers of chromatin structures with immunofluorescence assay. I found that trimethylated lysine at ninth position in core Histone H3 (H3K9Me3), which is generally associated with densely packed heterochromatin regions correspond to high values of anisotropy (Fig. \ref{fig:an_verify}, \ref{fig:an_verify_line}). Similarly, I found that Heterochromatin Protein 1$\alpha$ (HP1$\alpha$), associated with heterochromatin domains, are also enriched in regions of high anisotropy. Conversely, I stained for decompacted chromatin using an antibody against the activated form of RNA polymerase, in which S5 is phosphorylated in C-terminal domain, and found that the anisotropy values are low in such regions. Together, these results suggested that regions of high and low anisotropy indeed correspond to biologically relevant structures of dense and loosely packed chromatin.  
+
 
 \begin{figure}[H]
-    {\hfill\includegraphics[clip,width=0.8\linewidth]{figures/micro_gh2ax.png}\hspace*{\fill}}
-    \caption{Microirradiation activates DNA damage responses. $\gamma$H2AX, a known marker for damage response, is found at the site of microirradiation.}
-    {\label{fig:micro_gh2ax}}
+    {\hfill\includegraphics[clip,width=0.8\linewidth]{figures/nih.png}\hspace*{\fill}}
+    \caption{NIH 3T3 cells show high anisotropy chromocenters. NIH 3T3 cells transiently transfected with H2B-EGFP show high contrast anisotropy maps. For these cells the pericentric heterochromatin can also be clearly visualized in the intensity maps of H2B-EGFP as shown here on the right, or even with a DNA stain. The pericentric heterochromatin in chromocenters correspond to high anisotropy regions.}
+    {\label{fig:nih}}
 \end{figure}
 
-\paragraph*{} To test that the 405nm laser that is introduced using the DLH is performing as intended, we focused the laser to a diffraction limited spot in the center of the image plane, and irradiated hoechst-sensitized cells. I observed that it causes damage by fixing the damaged cell within 5 minutes and staining the microirradiated cell for $\gamma$H2AX, which was observed at the site of damage (Fig. {\ref{fig:micro_gh2ax}}), indicating activated damage response.
+\begin{figure}[H]
+    {\hfill\includegraphics[clip,width=0.8\linewidth]{figures/fixing.png}\hspace*{\fill}}
+    \caption{Anisotropy of H2B-EGFP in live and fixed cells. H2B-EGFP Anisotropy map of a live cell is comparable to the anisotropy map of the same cell when fixed with 4\% paraformaldehyde for 15 minutes. Anisotropy maps are preserved in fixation, opening up the possibility of combining live cell dynamics with fixed cell immunofluorescence. H2B-EGFP intensity images are shown in the bottom row. The anisotropy values in the color map scale from 0.11 for blue to 0.15 for red. The scalebar corresponds to 5 $\mu$m.}
+    {\label{fig:fixing}}
+\end{figure}
 
-\paragraph*{} In summary, we developed fluorescence anisotropy imaging to map regions of chromatin in live cells, verified its sensitivity and incorporated microirradiation to damage chromatin, and measure its dynamics post damage with live cell imaging. Following live cell imaging, we fixed the cells, and performed immunofluorescence assay against known markers of damage response to observe the state of those endogenous proteins.
+
+\paragraph*{} Apart from this, I have also transfected H2B-EGFP in NIH3T3 cell line, which have distinct nodes of heterochromatin, known as chromocenters, which are expected to be regions of high anisotropy, around regions of loosely compact regions of low anisotropy (Fig. \ref{fig:nih}).
+
+\paragraph*{} I also verified that fixing the cells have no noticable impact on the anisotropy maps (Fig. \ref{fig:fixing}).
+
+\paragraph*{} In summary, I developed fluorescence anisotropy imaging to map regions of chromatin in live cells, verified its sensitivity and incorporated microirradiation to damage chromatin, and measure its dynamics post damage with live cell imaging. Following live cell imaging, I fixed the cells, and performed immunofluorescence assay against known markers of damage response to observe the state of those endogenous proteins.
